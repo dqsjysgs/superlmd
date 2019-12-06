@@ -2,11 +2,13 @@
 #include <cstring>
 using namespace std;
 struct node
-{	char a;
+{	
+	char a;
 	node *next;
 };
 int main()
-{	char a[50];
+{	
+	char a[50];
 	cin>>a;
 	int len = strlen(a);
 	node *p,*head=NULL,*tail=NULL; 
